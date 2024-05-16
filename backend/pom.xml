@@ -9,12 +9,12 @@
 		<version>3.0.6</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>fr.actia</groupId>
-	<artifactId>neveos</artifactId>
+	<groupId>fr.geofood</groupId>
+	<artifactId>geofood</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>neveos</name>
-	<description>Noveos SOVD</description>
+	<name>geofood</name>
+	<description>Geo Food</description>
 	<properties>
 		<java.version>17</java.version>
 		<spring-cloud.version>2022.0.2</spring-cloud.version>
@@ -129,7 +129,7 @@
 				<executions>
 					<execution>
 						<configuration>
-							<mainClass>fr.actia.neveos.NeveosApplication</mainClass>
+							<mainClass>fr.geofood.GeoFoodApplication</mainClass>
 						</configuration>
 					</execution>
 				</executions>
